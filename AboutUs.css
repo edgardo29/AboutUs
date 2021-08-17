@@ -1,0 +1,94 @@
+body{
+  margin: 0;
+  padding: 0px 0px;
+  font-family: 'Playfair Display', serif;
+  background-image: url(https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77700399882.jpg);
+  background-repeat: no-repeat;
+  background-size: 2000px 1700px;
+  min-height: 100vh;
+  background-position: center;
+}
+.logo{
+  margin-top: 5px;
+  margin-left: 20px;
+  width: 180px;
+  height: 50px;
+}
+.nav{
+  color: white;
+  text-decoration: none;
+  padding: 16px 18px;
+  font-size: 18px;
+}
+.main{
+  display: flex;
+  flex-wrap: wrap;
+  background-color: black;
+}
+.titlebar{
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  justify-content: flex-end;
+}
+.titlebar textsize{
+  margin-left: 10px;
+  font-size: 22px;
+}
+.titlebar a:hover, t:hover{
+  background-color: gainsboro;
+  color: black;
+  font-weight: bold;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.logoTitle{
+  width: 400px;
+  height: 180px;
+  margin-top: 12px;
+}
+.logoDiv{
+  text-align: center;
+  width: 100%;
+  height: 220px;
+  background-color: rgba(74, 79, 76, 0.82)
+}
+.content{
+  margin: 5px;
+  width:800px;
+  justify-content: center;
+  align-items: center;
+}
+.content h3{
+color: #f0ebeb;
+margin-top: 40px;
+font-size: 24px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.content p{
+color: #f0ebeb;
+font-size: 16px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.content ul{
+color: #f0ebeb;
+font-size: 16px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.footer{
+  margin-top: 12px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: rgba(74, 79, 76, 0.82);
+  width: 100%;
+  height: 70px;
+}
+.contact{
+  color: #f0ebeb;
+  font-size: larger;
+}

@@ -1,0 +1,185 @@
+<head>
+    <title>Home Page></title>
+    <style>
+        body{
+            font-family: Arial;
+        }
+        .nav{
+            color: white;
+            text-decoration: none;
+            padding: 16px 18px;
+            font-size: 18px;
+        }
+        .main{
+            display: flex;
+            flex-wrap: wrap;
+            background-color: black;
+        }
+        .logo{
+            margin-top: 5px;
+            margin-left: 20px;
+            width: 180px;
+            height: 50px;
+        }
+        .titlebar{
+            display: flex;
+            flex-wrap: wrap;
+            flex-grow: 1;
+            justify-content: flex-end;
+        }
+        .titlebar textsize{
+            margin-left: 10px;
+            font-size: 20px;
+        }
+        .titlebar a:hover, t:hover{
+            background-color: gainsboro;
+            color: black;
+            font-weight: bold;
+        }
+        .image{
+            display: flex;
+            justify-content: flex-end;
+            background-image: url("Main.jpg");
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            min-height: 85vh;
+        }
+        .now{
+            margin-top: 300px;
+            margin-right: 140px;
+            font-size: 50px;
+            font-weight: bold;
+            font-style: italic;
+            color: white;
+        }
+        .image:hover .now{
+            opacity: 0;
+        }
+        .image:hover{
+            background-image: url("Main2.jpg");
+        }
+        .image:hover .btnappear{
+            opacity: 1;
+        }
+        .label{
+            display: flex;
+            flex-wrap: wrap;
+            padding-top: 60px;
+            justify-content: center;
+            align-items: center;
+            background-color: black;
+        }
+        .line{
+            width: 90%;
+            height: 3px;
+            background-color: dimgray;
+        }
+        .title{
+            margin-left: 10px;
+            margin-right: 10px;
+            background-color: black;
+            font-size: 45px;
+            font-weight: bold;
+            color: white;
+        }
+        .tabs{
+            padding-top: 20px;
+            background-color: black;
+            min-height: 100vh;
+        }   
+        .tab{
+            display: flex;
+            flex-wrap: wrap;
+            background-color: black;
+            color: white;
+            align-items: center;
+        } 
+        .txt{
+            border: none;
+            background-color: black;
+            color: white;
+            padding: 16px 18px;
+            font-size: 22px;
+        }
+        .active, .txt:hover{
+            border-bottom: 5px solid red;
+        }  
+        .searchbar{
+            display: flex;
+            flex-grow: 1;
+            flex-wrap: wrap;
+            justify-content: flex-end;
+            margin-right: 10px;
+        }
+        .search{
+            width: 320px;
+            height: 50px;
+            border-radius: 50px;
+        }
+        .searchbutton{
+            border: none;
+            background-color: black;
+            color: white;
+            padding: 16px 18px;
+            font-size: 22px;
+            justify-content: center;
+        }
+        .searchbutton:hover{
+            border-bottom: 5px solid red;
+        } 
+        input[type="text"]{
+            font-size: 20px;
+        }
+        .movies{
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+        .list{
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            padding: 20px 60px;
+        }
+        .container{
+            position: relative;
+        }
+        .btnappear{
+            opacity: 0;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+        }
+        .book{
+            background-color: red;
+            color: white;
+            font-size: 22px;
+            font-weight: bold;
+            padding: 16px 38px;
+            border: none;
+            border-radius: 50px;
+        }
+        .book:hover{
+            opacity: 0.8;
+        }
+        .images{
+            opacity: 1;
+            height: 400px;
+            width: 250px;
+        }
+        .container:hover .images{
+            opacity: 0.5;
+        }
+        .container:hover .btnappear{
+            opacity: 1;
+        }
+        .movietext{
+            margin-top: 10px;
+            color: white;
+            font-size: 22px;
+            font-weight: bold;
+        }
+    </style>
+</head>

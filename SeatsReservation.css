@@ -1,0 +1,167 @@
+<head>
+    <title>Home Page></title>
+    <style>
+        body{
+            font-family: Arial;
+        }
+        .nav{
+            color: white;
+            text-decoration: none;
+            padding: 16px 18px;
+            font-size: 18px;
+        }
+        .main{
+            display: flex;
+            flex-wrap: wrap;
+            background-color: black;
+        }
+        .logo{
+            margin-top: 5px;
+            margin-left: 20px;
+            width: 180px;
+            height: 50px;
+        }
+        .titlebar{
+            display: flex;
+            flex-wrap: wrap;
+            flex-grow: 1;
+            justify-content: flex-end;
+        }
+        .titlebar textsize{
+            margin-left: 10px;
+            font-size: 20px;
+        }
+        .titlebar a:hover, t:hover{
+            background-color: gainsboro;
+            color: black;
+            font-weight: bold;
+        }
+        .image{
+            display: flex;
+            flex-direction: column;
+            background-image: url("Seats.jpg");
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            min-height: 92vh;
+            justify-content: center;
+            align-items: center;
+        }
+        .heading{
+            font-family: Georgia, serif;
+            font-weight: bold;
+            margin-bottom: 15px;
+            font-size: 36px;
+            color: white;
+        }
+        .items{
+            display: flex;
+        }
+        .content{
+            display: flex;
+            flex-direction: column;
+            background-color: black;
+            opacity: 0.8;
+            width: 1000px;
+            height: 600px;
+            border-style: dashed;
+            border-color: white;
+            border-width: 5px;
+        }
+        .hall{
+            display: flex;
+            flex-direction: row;
+        }
+        .left{
+            flex: 40%;
+        }
+        .right{
+            flex: 35%;
+        }
+        .container{
+            margin-top: 30px;
+            margin-left: 40px;
+        }
+        .seats{
+            width: 60px;
+            height: 60px;
+            margin-right: 20px;
+        }
+        .selected{
+            background-color: green;
+            border-color: green;
+        }
+        .disabled{
+            background-color: red;
+            border-color: red;
+        }
+        .tags{
+            display: flex;
+            flex-direction: row;
+            margin-top: 20px;
+            margin-left: 10px;
+        }
+        .box{
+            width: 20px;
+            height: 20px;
+            border:1px solid;
+            margin-left: 30px;
+        }
+        .text{
+            color: white;
+            font-size: 20px;
+            margin-left: 10px;
+        }
+        .buttoncontainer{
+            display: flex;
+            justify-content: flex-end;
+            width: 90%;
+            margin-bottom: 20px;
+        }
+        .next{
+            width: 100px;
+            height: 45px;
+            font-size: 28px;
+        }
+        @media only screen and (max-width: 900px){
+        .content{
+            display: flex;
+            flex-direction: column;
+            background-color: black;
+            opacity: 0.8;
+            width: 100%;
+            height: 400px;
+            border-style: dashed;
+            border-color: white;
+            border-width: 5px;
+        }
+            .container{
+                margin-top: 20px;
+            }
+        .seats{
+            width: 40px;
+            height: 40px;
+            margin-right: 10px;
+        }
+        .tags{
+            display: flex;
+            flex-direction: row;
+            margin-top: 10px;
+            margin-left: 5px;
+        }
+        .box{
+            width: 10px;
+            height: 10px;
+            border:1px solid;
+            margin-left: 20px;
+        }
+        .text{
+            color: white;
+            font-size: 12px;
+            margin-left: 5px;
+        }
+            .next{
+                margin-top: 10px;
+            }
+        }
+    </style>
+</head>
